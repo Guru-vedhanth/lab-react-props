@@ -13,10 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       textAlign:"center"
     }}>Kalvium gallary</h1>
     <div className='gridContainerStyle'>
-      <AppClass id="1" imgUrl={data[0].img}/>
-      <AppClass id="2" imgUrl={data[1].img}/>
-      <AppClass id="3" imgUrl={data[2].img}/>
-      <AppClass id="4" imgUrl={data[3].img}/>
+      <App id="1" imgUrl={data[0].img}/>
+      <App id="2" imgUrl={data[1].img}/>
+      <App id="3" imgUrl={data[2].img}/>
+      <App id="4" imgUrl={data[3].img}/>
     </div>
   </React.StrictMode>,
 )
